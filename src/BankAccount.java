@@ -1,4 +1,3 @@
-
 public abstract class BankAccount {
 	protected int balanceInPennies;
 	protected double interestRate;
@@ -30,8 +29,7 @@ public abstract class BankAccount {
 	public abstract void applyInterest();
 	@Override
 	public String toString() {
-		return "BankAccount [balanceInPennies=" + balanceInPennies + ", interestRate=" + interestRate
-				+ ", accountNumber=" + accountNumber + "]";
+		return "\nAccount ID:\t:\t" + accountNumber + "\n Balance\t\t:\t" + balanceInPennies + "\nInterest rate\t:\t" + interestRate + "\n";
 	}
 	
 }
