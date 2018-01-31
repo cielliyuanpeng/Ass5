@@ -88,7 +88,13 @@ public class Assignment5
                      ***  ADD your code here to print out all objects in the bank account list. 
                      ***  If there is no account, print "no account\n"
                      ***********************************************************************************/
-                    
+                    if(accountList.isEmpty()) System.out.println("no account\n");
+                    else{
+                    	for(int i=0;i<accountList.size();i++){
+                    		System.out.println(accountList.get(i));
+                    	}
+                    }
+
                     break;
              case 'Q':   //Quit
                     break;
